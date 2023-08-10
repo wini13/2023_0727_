@@ -28,7 +28,7 @@ def play():
             print("超出範圍")
         
 while True:
-    play()
+    play()#呼叫function
     again = input("您還要繼續遊戲嗎?(y or n):")
     if again == 'n':
         break
